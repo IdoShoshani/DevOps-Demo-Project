@@ -18,7 +18,7 @@ PORT = int(os.getenv('PORT', 8080))
 def home():
     """Root endpoint"""
     return jsonify({
-        'message': 'Welcome to DevOps Demo Project! 🚀',
+        'message': 'Welcome to Ido Demo Project! 🚀',
         'version': VERSION,
         'hostname': socket.gethostname(),
         'timestamp': datetime.now().isoformat()
